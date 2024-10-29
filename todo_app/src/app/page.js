@@ -1,5 +1,5 @@
 import Link from "next/link";
-import TaskList from "./components/TaskList";
+import DatePreview from "./components/DatePreview";
 
 const page = () => {
   return (
@@ -7,7 +7,7 @@ const page = () => {
       <div >
         <Link href={'/taskform'}>Add Task</Link>
       </div>
-      <TaskList/>
+      <DatePreview/>
     </div>
   );
 }
