@@ -1,9 +1,12 @@
+import Link from "next/link";
 import TaskList from "./components/TaskList";
 
 const page = () => {
   return (
     <div>
-      Jai Shree Ram !!
+      <div >
+        <Link href={'/taskform'}>Add Task</Link>
+      </div>
       <TaskList/>
     </div>
   );
